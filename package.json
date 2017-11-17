@@ -1,0 +1,47 @@
+{
+    "author": "ericsillekens@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "plexface",
+    "pebble": {
+        "displayName": "PlexFace",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/IMBPlexSans-Bold",
+                    "name": "FONT_PLEX_SANS_BOLD_54",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9 A-z.,;:]",
+                    "file": "fonts/IBMPlexSans-Regular",
+                    "name": "FONT_PLEX_SANS_REGULAR_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/IBMPlexSans-Regular",
+                    "name": "FONT_PLEX_SANS_REGULAR_54",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "319ab1cd-70c0-4c7a-9e51-85ea6935d2d5",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
